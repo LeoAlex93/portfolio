@@ -1,0 +1,88 @@
+.content-about__title, 
+.content-skills__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1;
+	margin-bottom: 20px;
+
+    @include tablet {
+    font-size: 24px;
+    }
+
+    @include mobile {
+	margin-bottom: 10px;
+        
+    }
+}
+
+
+
+.content-about__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.badges {
+    margin-bottom: 20px;
+
+    @include tablet {
+    margin-bottom: 14px;
+        
+    }
+
+    @include mobile {
+    margin-bottom: 20px;
+        
+    }
+}
+
+
+
+.content-skills {
+	font-size: 14px;
+	line-height: 1.9;
+
+    @include tablet {
+	line-height: 1.77;
+        
+    }
+
+    @include mobile {
+	line-height: 1.68;
+        
+    }
+
+
+}
+
+.content-skills__text {
+    ul {
+        li {
+            padding-left: 20px;
+			position: relative;
+            &::before {
+				position: absolute;
+				content: '';
+				width: 4px;
+				height: 4px;
+				background-color: #000;
+				border-radius: 50%;
+				left: 6px;
+				top: 11px;
+			}
+        }
+    }
+}
+
+        
+    
+
+	
+
+.content-skill {
+
+    
+	
+}
+

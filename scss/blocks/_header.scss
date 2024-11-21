@@ -1,0 +1,97 @@
+.header {
+	padding: 40px 0;
+
+	@include tablet {
+	padding: 30px 0;
+		
+	}
+
+}
+
+.header__row {
+	display: flex;
+	
+	align-items: center;
+	column-gap: 700px;
+
+	@include tablet {
+	column-gap: 235px;
+		
+	}
+
+	@include mobile {
+		flex-wrap: wrap;
+		row-gap: 20px;
+	}
+}
+
+.header__logo {
+	flex-shrink: 0;
+}
+
+
+.header__content-wrap {
+	display: flex;
+	column-gap: 30px;
+
+	
+
+	@include mobile {
+		flex-wrap: wrap;
+		row-gap: 20px;
+	}
+}
+
+.header__content-about {
+	background-color: #FBFBFB;
+	padding: 30px 30px 50px;
+	max-width: 585px;
+	
+	// flex-shrink: 0;
+	@include tablet {
+	max-width: 354px;
+	padding: 20px 20px 20px 20px;
+
+	}
+}
+
+
+
+.header__content-skills {
+	// display: flex;
+	// flex-direction: column;
+	// row-gap: 20px;
+	background-color: #F1F8FB;
+	padding: 30px 30px 47px 30px;
+	width: 585px;
+	
+	// flex-shrink: 0;
+	@include tablet {
+	padding: 20px 20px 27px 20px;
+		
+	}
+}
+
+.badges {
+	display: flex;
+	column-gap: 5px;
+}
+.badge--html, .badge--css, .badge--scss, .badge--js  {
+	font-weight: 700;
+	font-size: 12px;
+	border-radius: 2px;
+	padding: 2px 6px;
+	background-color: #414141;
+	color: #fff;
+	text-transform: uppercase;
+}
+.badge--css {
+	background-color:  #39a0ff;
+}
+.badge--scss {
+	background-color: #dd6adf;;
+}
+.badge--js {
+	background-color: #ffce20;
+}
+

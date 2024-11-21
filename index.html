@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <meta name="viewport" content="width=360, initial-scale=1, shrink-to-fit=no"> -->
+
+	<title>Портфолио</title>
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./js/fancybox/fancybox.css">
+	
+	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body class="sticky-footer">
+
+	<header class="header">
+		<div class="container">
+			<div class="header__row">
+				<a href="#!" class="header__logo logo">
+					<span class="logo__title">Александр Резников</span>
+					<span class="logo__desc">HTML верстальщик, веб-разработчик</span>
+				</a>
+				
+				<nav class="header__nav nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="mailto:aleksandr.reznikov2015@yandex.ru" target="_blank"class="nav__link">
+								<img src="./img/icons/email.svg" alt="email" class="nav__icon">
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="https://github.com/LeoAlex93" target="_blank"class="nav__link"><img src="./img/icons/github.svg" alt="github" class="nav__icon"></a>
+						</li>
+						<li class="nav__item" >
+							
+							<a href="https://t.me/leoalex93" target="_blank"class="nav__link">
+								<img src="./img/icons/header-teleg.png" alt="telegram" class="nav__icon-teleg">
+									
+							</a> 
+							
+						</li>
+					
+						
+					</ul>
+				</nav>
+
+				
+			</div>
+		</div>
+	</header>
+
+	<div class="header__content">
+		<div class="container">
+		<div class="header__content-wrap">
+				<div class="header__content-about">
+					<h3 class="content-about__title">Обо мне</h3>
+					<div class="content-about__text">
+						<p>Я профессиональный HTML верстальщик сайтов, веб-разработчик. Верстаю с учетом последних трендов и технологий.</p>
+						<p>Оперативная верстка. Работаю с соблюдением сроков и ТЗ.</p>
+						<p>Если вы ищите специалиста по верстке сайтов или frontend разработчика в команду для работы над проектом, напишите мне.</p>
+					</div>
+				</div>
+				<div class="header__content-skills">
+					<h3 class="content-skills__title">Навыки</h3>
+					<ul class="badges">
+						<li class="badge--html">html</li>
+						<li class="badge--css">css</li>
+						<li class="badge--scss">scss</li>
+						<li class="badge--js">js</li>
+					</ul>
+					<div class="content-skills__text">
+						<ul class="content-skills">
+							<li class="content-skill">Pixel perfect, полное соответствие макету</li>
+							<li class="content-skill">Мобильная верстка, оптимизация под retina экраны</li>
+							<li class="content-skill">BEM naming</li>
+							<li class="content-skill">Постановка на WordPress</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main class="main">
+		<div class="container">
+			
+			<!-- Портфолио -->
+			<section class="portfolio">
+				<h2 class="portfolio__title">Портфолио</h2>
+				<ul class="portfolio__cards">
+					<li a href="#!" data-fancybox="gallery" data-src="#epicTravel" class="card">
+						<div class="card__img">
+							<img src="./img/portfolio/epic.jpg" srcset="./img/portfolio/epic@2x.jpg 2x" alt="ЭпикТрэвел">
+						</div>
+						<div class="card__desc">
+						<h3 class="card__title">
+							ЭпикТрэвел
+						</h3>
+						<div class="card__text">
+							<p>Верстка сайта визитки. 4 страницы, форма обратной связи, мобильная адаптация, retina ready</p>
+						</div>
+						<div class="card__tags">HTML, CSS, JS</div>
+					</li>
+				</a>
+					<li a href="#!" data-fancybox="gallery" data-src="#coworks" class="card" >
+						<div class="card__img">
+							<img src="./img/portfolio/coworks.jpg" srcset="./img/portfolio/coworks@2x.jpg 2x" alt="Коворкинг">
+						</div>
+						<div class="card__desc">
+						<h3 class="card__title">
+							Сайт коворкинга
+						</h3>
+						<div class="card__text">
+							<p>Верстка лендинга для сайта коворкинга</p>
+						</div>
+						<div class="card__tags">HTML, SCSS, JS</div>
+					</li>
+				</a>
+					<li a href="#!" data-fancybox="gallery" data-src="#design-interior" class="card">
+						<div class="card__img">
+							<img src="./img/portfolio/design.jpg" width="216px" height="136px" alt="ЭпикТрэвел">
+						</div>
+						<div class="card__desc">
+						<h3 class="card__title">
+							Дизайн интерьера
+						</h3>
+						<div class="card__text">
+							<p>Верстка сайта портфолио. форма обратной связи, мобильная адаптация, retina ready</p>
+						</div>
+						<div class="card__tags ">HTML, CSS, JS</div>
+					</li>
+				</a>
+				</ul>
+			</div>
+			</section>
+
+			<!-- Предложения -->
+			<section class="offers">
+				<div class="container">
+					<div class="offers__body">
+						<h2 class="offers__title">Нужна верстка или есть предложения?</h2>
+						<div class="offers__text">
+						<p>Напишите мне, обсудим ваш проект</p>
+					</div>
+					<div class="offer__btn">
+						<a href="https://t.me/leoalex93" target="_blank" class="btn-telegram">
+							<img src="./img/icons/telegram.svg" alt="telegram">Telegram</a>
+					</div>
+					</div>
+					
+				</div>
+			</section>
+			
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__content">
+				<div class="footer__left">&copy; 2024 Александр Резников</div>
+				<div class="footer__right">Сайт сделан в рамках обучения по верстке <br class="desktop-only"> на курсах от <a href="https://webcademy.ru/" target="_blank"><span class="site">WebCademy.ru</span></a> </div>
+			</div>
+		</div>
+	</footer>
+
+<!-- Модальные окна -->
+	<section class="modal" id="epicTravel">
+		<div class="modal__img">
+			<img src="./img/modal/epic.jpg" srcset="./img/modal/epic@2x.jpg 2x" alt="EpicTravel">
+		</div>
+		<div class="modal__body">
+			
+			<div class="modal__title">ЭпикТрэвел</div>
+			<div class="modal__text">
+				<p>Верстка сайта визитки. 3 страницы, форма обратной связи, мобильная адаптация, retina ready.</p>
+				<p>Страницы:</p>
+				
+				<ul>
+					<li><a href="http://proitgold.ru/epic-travel/index.html" target="_blank">Главная</a></li>
+					<li><a href="http://proitgold.ru/epic-travel/tours.html" target="_blank">Туры и направления</a></li>
+					<li><a href="http://proitgold.ru/epic-travel/about.html" target="_blank">О компании</a></li>
+					<li><a href="http://proitgold.ru/epic-travel/contacts.html" target="_blank">Контакты</a></li>
+				</ul>
+			</div>	
+			<p class="modal__tags">HTML, SCSS, JS</p>
+			<div class="modal__links">
+				<a href="http://proitgold.ru/epic-travel/index.html" target="_blank"class="link-btn">
+					<img src="./img/modal/link.svg" alt="link">
+					смотреть демо
+				</a>
+				<!-- <a href="#" class="link-btn">
+					<img src="./img/modal/site.svg" alt="link">
+					сайт клиента
+				</a> -->
+				<!-- <a href="#" class="link-btn">
+					<img src="./img/modal/github.svg" alt="link">
+					Github проекта
+				</a> -->
+			</div>
+		</div>
+	</section>
+	<section class="modal" id="coworks">
+		<div class="modal__img">
+			<img src="./img/modal/coworks.jpg" srcset="./img/modal/coworks@2x.jpg 2x" alt="EpicTravel">
+		</div>
+		<div class="modal__body">
+			
+			<div class="modal__title">Сайт коворкинга</div>
+			<div class="modal__text">
+				<p>Верстка лендинга. Одностраничный сайт с информацией о коворкинге. Форма обратной связи, модальные окна, карта, аккордеон, адаптация под мобильные устройства, мобильная навигация.</p>
+				<p>Страницы:</p>
+				<ul>
+					<li><a href="http://proitgold.ru/coworks/index.html" target="_blank">Главная</a></li>
+					<li><a href="http://proitgold.ru/coworks/index.html#services" target="_blank">Сервис</a></li>
+					<li><a href="http://proitgold.ru/coworks/index.html#price" target="_blank">Тариф</a></li>
+					<li><a href="http://proitgold.ru/coworks/index.html#map" target="_blank">Расположение</a></li>
+				</ul>
+			</div>	
+			<p class="modal__tags">HTML, SCSS, JS</p>
+			<div class="modal__links">
+				<a href="http://proitgold.ru/coworks/index.html" target="_blank"class="link-btn">
+					<img src="./img/modal/link.svg" alt="link">
+					смотреть демо
+				</a>
+				<!-- <a href="#" class="link-btn">
+					<img src="./img/modal/site.svg" alt="link">
+					сайт клиента
+				</a>
+				<a href="#" class="link-btn">
+					<img src="./img/modal/github.svg" alt="link">
+					Github проекта -->
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="modal" id="design-interior">
+		<div class="modal__img">
+			<img src="./img/modal/design.jpg" alt="design-interior">
+		</div>
+		<div class="modal__body">
+			
+			<div class="modal__title">Дизайн интерьера</div>
+			<div class="modal__text">
+				<p>Верстка лендинга. Одностраничный сайт с информацией о дизайне интерьера. Форма обратной связи, адаптация под мобильные устройства.</p>
+
+				<p>Страницы:</p>
+				<ul>
+					<li><a href="http://proitgold.ru/design_interior/#about" target="_blank">Обо мне</a></li>
+					<li><a href="http://proitgold.ru/design_interior/#portfolio" target="_blank">Портфолио</a></li>
+					<li><a href="http://proitgold.ru/design_interior/#contacts" target="_blank">Контакты</a></li>
+				</ul>
+			</div>	
+			<p class="modal__tags">HTML, SCSS, JS, PHP</p>
+			<div class="modal__links">
+				<a href="http://proitgold.ru/design_interior/" target="_blank"class="link-btn">
+					<img src="./img/modal/link.svg" alt="link">
+					смотреть демо
+				</a>
+				<!-- <a href="#" class="link-btn">
+					<img src="./img/modal/site.svg" alt="link">
+					сайт клиента
+				</a> -->
+				<!-- <a href="#" class="link-btn">
+					<img src="./img/modal/github.svg" alt="link">
+					Github проекта
+				</a> -->
+			</div>
+		</div>
+	</section>
+
+	<!-- <a href="#top" class="top-link" id="scrollToTopBtn">
+		<img src="./img/icons/arrow-up.svg" alt="Arrow up">
+	</a> -->
+
+	<!-- Vendors -->
+	<script src="./js/fancybox/fancybox.umd.js"></script>
+	
+
+	<!-- Скрипты -->
+
+	<script src="./js/main.js"></script>
+
+</body>
+
+</html>

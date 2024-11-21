@@ -1,0 +1,91 @@
+.portfolio {
+    padding-top: 38px;
+
+    @include tablet {
+    padding-top: 25px;
+        
+    }
+
+    @include mobile {
+    padding-top: 55px;
+        
+    }
+}
+
+.portfolio__title {
+    font-weight: 700;
+    font-size: 28px;
+
+    @include mobile {
+    font-size: 24px;
+        
+    }
+}
+
+.portfolio__cards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+
+    @include tablet {
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    }
+
+    @include mobile {
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 20px;
+        
+    }
+
+}
+
+.card {
+    max-width: 380px;
+    cursor: pointer;
+    
+}
+
+.card__desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.card__img {
+    margin-bottom: 15px;
+    background-image: url('./../img/portfolio/laptop.svg');
+    background-color: #F6F6F6;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: 285px 160px;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+    background-color: #9f9696;
+    transition: .5s;
+
+    }
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+    text-decoration: none;
+    color: #000
+}
+
+.card__text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card__tags {
+    font-size: 12px;
+    line-height: 1.3;
+    color: #6b9db9;
+}

@@ -1,0 +1,35 @@
+.nav {
+	font-size: 14px;
+}
+
+.nav__list {
+	display: flex;
+	column-gap: 20px;
+	align-items: center;
+}
+
+.nav__item {
+}
+
+.nav__link {
+	
+	color: #000;
+	transition: color 0.2s ease-in;
+
+}
+
+.nav__icon:hover {
+	background-color: #c6c3c3;
+	border-radius: 200%;
+	transition: .5s;
+}
+
+.nav__icon-teleg:hover {
+	filter: grayscale(1);
+	transition: .5s;
+}
+
+
+
+
+

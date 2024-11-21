@@ -1,0 +1,53 @@
+.offers {
+    padding: 50px 0 80px;
+
+    @include tablet {
+    padding: 40px 0 60px;
+        
+    }
+
+    @include mobile {
+    padding: 40px 0 40px;
+        
+    }
+}
+
+.offers__body {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    text-align: center;
+    background-color: #F0F5F9;
+    padding: 60px 0;
+
+    @include mobile {
+    padding: 40px 0;
+    row-gap: 20px;
+        
+    }
+}
+.offers__title {
+    font-weight: 800;
+    font-size: 32px;
+
+    @include tablet {
+    font-size: 26px;
+    }
+
+    @include mobile {
+    font-size: 22px;
+        
+    }
+
+
+}
+.offers__text {
+    font-weight: 300;
+    font-size: 14px;
+}
+.offer__btn {
+    
+
+}
+

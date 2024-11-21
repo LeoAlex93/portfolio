@@ -1,0 +1,188 @@
+.modal {
+	position: relative;
+	display: none;
+	top:0;
+	left:0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	background-color: rgba(0, 0, 0, 0.5);
+
+	
+}
+
+.fancybox__content {
+	padding: 0;
+}
+
+.modal__body {
+	padding: 20px 0 20px 40px;
+	position: relative;
+	width: 768px;
+	background-color: #fff;
+
+	@include tablet {
+	width: 738px;
+	}
+
+	@include mobile {
+	width: 330px;
+	padding: 20px 20px 20px 20px;
+	
+	}
+}
+
+.modal__img {
+	background-image: url('./../img/portfolio/laptop.svg');
+	background-repeat: no-repeat;
+	height: 390px;
+	width: 768px;
+	background-position: center center;
+	background-size: 600px 290px;
+	background-color: #F6F6F6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	@include mobile {
+	background-size: 290px 163px;
+	width: 330px;
+	height: 246px;
+
+
+		
+	}
+
+	& img {
+		width: 382px;
+		height: 240px;
+
+		@include mobile {
+		width: 220px;
+		height: 138px;
+
+		}
+	}
+}
+
+.modal__text {
+	font-size: 14px;
+	line-height: 1.3;
+	
+	@include mobile {
+	line-height: 1.5;
+		
+	}
+
+	p + p {
+		margin-bottom: 20px;
+	}
+
+	* + ul {
+			margin-bottom: 15px;
+			
+	}
+
+	ul {
+		li {
+			padding-left: 20px;
+			position: relative;
+
+			&::before {
+				position: absolute;
+				content: '';
+				width: 4px;
+				height: 4px;
+				background-color: #0F7DFF;
+				border-radius: 50%;
+				left: 6px;
+				top: 6px;
+			}
+			
+		}
+	}
+
+	li + li {
+		margin-top: 10px;
+	}
+
+
+}
+
+.modal__title {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.3;
+
+	@include mobile {
+	font-size: 22px;
+		
+	}
+	
+}
+
+
+.modal__nav {
+	padding-left: 33px;
+}
+
+.modal__pages p{
+	font-size: 14px;
+	line-height: 1.3;
+}
+
+.nav-item {
+	margin: 20px 0;
+}
+.nav-link  {
+	
+	list-style: disc;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.modal__links{
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+	flex-wrap: wrap;
+
+
+	@include mobile {
+		flex-direction: column;
+		align-items: stretch;
+		row-gap: 10px;
+		
+		
+	}
+	
+}
+.link-btn, a.link-btn {
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 6px 10px;
+	background-color: #f2f2f2;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+	color: #000;
+	&:hover {
+		background-color: #c8c7c7 ;
+		transition: 0.5s;
+	}
+}
+
+
+
+.modal__tags {
+	margin-bottom: 20px;
+	font-size: 12px;
+    line-height: 1.3;
+    color: #6b9db9;
+}
+
