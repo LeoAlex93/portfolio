@@ -151,8 +151,8 @@ nav a:hover {
   max-width: 870px;
   margin: 0;
   font-size: clamp(54px, 7.4vw, 104px);
-  letter-spacing: -0.065em;
-  line-height: 1.1;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
 }
 
 .hero-lead {
